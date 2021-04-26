@@ -1,0 +1,5 @@
+* Cedict parser
+
+A simple and mainly useless library to parse a [[https://www.mdbg.net/chinese/dictionary?page=cedict][Cedict Chinese - English dictionary file]].
+
+I mainly built this to experiment with file parsing and containerization of rust projects.
