@@ -3,3 +3,12 @@
 A simple and mainly useless library to parse a [[https://www.mdbg.net/chinese/dictionary?page=cedict][Cedict Chinese - English dictionary file]].
 
 I mainly built this to experiment with file parsing and containerization of rust projects.
+
+** How to run
+
+The executable doesn't really do much, but anyway:
+
+#+begin_src shell
+  cargo build --release
+  ./target/release/cedict-parser ./cedict_ts_sample.u8
+#+end_src
